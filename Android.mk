@@ -56,35 +56,10 @@ LOCAL_ALLOW_UNDEFINED_SYMBOLS := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libloc_api_v02
-LOCAL_MODULE_OWNER := KYOCERA
-LOCAL_SRC_FILES := proprietary/vendor/lib/libloc_api_v02.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_SHARED_LIBRARIES := libc++ libc libcutils liblog libdl libgps.utils libloc_core libm libqmi_cci libqmi_common_so libutils
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_PROPRIETARY_MODULE := true
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libloc_ds_api
-LOCAL_MODULE_OWNER := KYOCERA
-LOCAL_SRC_FILES := proprietary/vendor/lib/libloc_ds_api.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_SHARED_LIBRARIES := libc++ libc libcutils libdl libdsi_netctrl libgps.utils libm libqmi_cci libqmi_common_so libqmiservices libutils
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_PROPRIETARY_MODULE := true
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_ALLOW_UNDEFINED_SYMBOLS := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libqmi_cci
 LOCAL_MODULE_OWNER := KYOCERA
 LOCAL_SRC_FILES := proprietary/vendor/lib/libqmi_cci.so
-LOCAL_SHARED_LIBRARIES := libc++ libstdc++ libc libcutils libdl liblog libm libmdmdetect libqmi_client_qmux libqmi_encdec libsmemlog libutils
+LOCAL_SHARED_LIBRARIES := libc++  libc libcutils libdl liblog libm libmdmdetect libqmi_client_qmux libqmi_encdec libsmemlog libutils
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -124,7 +99,7 @@ LOCAL_MODULE_OWNER := KYOCERA
 LOCAL_SRC_FILES := proprietary/vendor/lib/libqmiservices.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
-LOCAL_SHARED_LIBRARIES := libc++ libstdc++ libc libdl libidl libm
+LOCAL_SHARED_LIBRARIES := libc++  libc libdl libidl libm
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_SUFFIX := .so
@@ -163,7 +138,7 @@ LOCAL_MODULE_OWNER := KYOCERA
 LOCAL_SRC_FILES := proprietary/vendor/lib/libqmi_client_qmux.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
-LOCAL_SHARED_LIBRARIES := libc++ libstdc++ libc libcutils libdiag libdl libdsutils libidl liblog libm libqmiservices
+LOCAL_SHARED_LIBRARIES := libc++  libc libcutils libdiag libdl libdsutils libidl liblog libm libqmiservices
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_VENDOR_MODULE := true
@@ -176,7 +151,7 @@ LOCAL_MODULE_OWNER := KYOCERA
 LOCAL_SRC_FILES := proprietary/vendor/lib/libqmi_encdec.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
-LOCAL_SHARED_LIBRARIES := libc++ libstdc++ libc libcutils liblog libdl libm libutils
+LOCAL_SHARED_LIBRARIES := libc++  libc libcutils liblog libdl libm libutils
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_VENDOR_MODULE := true
@@ -278,7 +253,7 @@ LOCAL_MODULE_OWNER := KYOCERA
 LOCAL_SRC_FILES := proprietary/vendor/lib/libqmi.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
-LOCAL_SHARED_LIBRARIES := libstdc++ libc libcutils libdiag libdsutils libidl liblog libm libqmi_client_qmux libqmiservices
+LOCAL_SHARED_LIBRARIES :=  libc libcutils libdiag libdsutils libidl liblog libm libqmi_client_qmux libqmiservices
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_VENDOR_MODULE := true
@@ -292,7 +267,7 @@ LOCAL_SRC_FILES := proprietary/vendor/bin/uimd
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_TAGS := optional
 LOCAL_VENDOR_MODULE := true
-LOCAL_SHARED_LIBRARIES := libc libcutils liblog libidl libm libuimd_shim libqcci_legacy libqmi libqmiservices libstdc++
+LOCAL_SHARED_LIBRARIES := libc libcutils liblog libidl libm libuimd_shim libqcci_legacy libqmi libqmiservices 
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -301,37 +276,37 @@ LOCAL_MODULE_OWNER := KYOCERA
 LOCAL_SRC_FILES := proprietary/vendor/lib/libqmi_client_helper.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
-LOCAL_SHARED_LIBRARIES := libc++ libstdc++ libc libcutils libdiag libdl libdsutils libidl liblog libm libqmi_cci libqmi_client_qmux libqmiservices
+LOCAL_SHARED_LIBRARIES := libc++ libc libcutils libdiag libdl libdsutils libidl liblog libm libqmi_cci libqmi_client_qmux libqmiservices
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_VENDOR_MODULE := true
 #LOCAL_ALLOW_UNDEFINED_SYMBOLS := true
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libmm-abl
-LOCAL_MODULE_OWNER := KYOCERA
-LOCAL_SRC_FILES := proprietary/vendor/lib/libmm-abl.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PROPRIETARY_MODULE := true
-LOCAL_SHARED_LIBRARIES := libbinder libc++ libc libcutils libdiag libdl liblog libm libmm-abl-oem libpowermanager libqservice libtinyxml libutils
-LOCAL_ALLOW_UNDEFINED_SYMBOLS := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libmm-abl-oem
-LOCAL_MODULE_OWNER := KYOCERA
-LOCAL_SRC_FILES := proprietary/vendor/lib/libmm-abl-oem.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PROPRIETARY_MODULE := true
-LOCAL_ALLOW_UNDEFINED_SYMBOLS := true
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := libmm-abl
+#LOCAL_MODULE_OWNER := KYOCERA
+#LOCAL_SRC_FILES := proprietary/vendor/lib/libmm-abl.so
+#LOCAL_MULTILIB := 32
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+#LOCAL_MODULE_SUFFIX := .so
+#LOCAL_PROPRIETARY_MODULE := true
+#LOCAL_SHARED_LIBRARIES := libbinder libc++ libc libcutils libdiag libdl liblog libm libmm-abl-oem libpowermanager libqservice libtinyxml libutils
+#LOCAL_ALLOW_UNDEFINED_SYMBOLS := true
+#include $(BUILD_PREBUILT)
+#
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := libmm-abl-oem
+#LOCAL_MODULE_OWNER := KYOCERA
+#LOCAL_SRC_FILES := proprietary/vendor/lib/libmm-abl-oem.so
+#LOCAL_MULTILIB := 32
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+#LOCAL_MODULE_SUFFIX := .so
+#LOCAL_PROPRIETARY_MODULE := true
+#LOCAL_ALLOW_UNDEFINED_SYMBOLS := true
+#include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff

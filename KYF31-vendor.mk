@@ -32,8 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/KYOCERA/KYF31/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
     vendor/KYOCERA/KYF31/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
     vendor/KYOCERA/KYF31/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
-    vendor/KYOCERA/KYF31/proprietary/vendor/bin/mm-pp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-daemon \
-    vendor/KYOCERA/KYF31/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/KYOCERA/KYF31/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/KYOCERA/KYF31/proprietary/vendor/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd \
     vendor/KYOCERA/KYF31/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
@@ -75,42 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/libacdbmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbmapper.so \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_a3907.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_a3907.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_a3907_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_a3907_camcorder.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_a3907_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_a3907_camera.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_bu64297_q13v06k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64297_q13v06k.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_bu64297_q13v06k_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64297_q13v06k_camcorder.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_bu64297_q13v06k_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64297_q13v06k_camera.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9714_13p1ba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_13p1ba.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9714_13p1ba_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_13p1ba_camcorder.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9714_13p1ba_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_13p1ba_camera.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_camcorder.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9714_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_camera.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9714_pc0fe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_pc0fe.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9714_pc0fe_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_pc0fe_camcorder.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9714_pc0fe_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_pc0fe_camera.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9714_q13n04a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_q13n04a.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9714_q13n04a_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_q13n04a_camcorder.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9714_q13n04a_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_q13n04a_camera.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9714_q13v04b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_q13v04b.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9714_q13v04b_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_q13v04b_camcorder.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9714_q13v04b_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_q13v04b_camera.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9716.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9716.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9716_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9716_camcorder.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_dw9716_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9716_camera.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_iu074.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_iu074.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_iu074_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_iu074_camcorder.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_iu074_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_iu074_camera.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_ov12830.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ov12830.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_ov12830_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ov12830_camcorder.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_ov12830_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ov12830_camera.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_ov8825.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ov8825.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_ov8825_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ov8825_camcorder.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_ov8825_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ov8825_camera.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_camcorder.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_camera.so \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
@@ -348,7 +310,6 @@ PRODUCT_COPY_FILES += \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflp.so \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgeofence.so \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimscamera_jni.so \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsdpl.so \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimsmedia_jni.so \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/lib-imsqimf.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsqimf.so \
@@ -368,87 +329,6 @@ PRODUCT_COPY_FILES += \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblqe.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmm-als.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-als.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera2_iface_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_iface_modules.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_imglib_modules.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera2_isp_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_isp_modules.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_q3a_core.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_is.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pproc_modules.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_sensor_modules.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_algorithm.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera2_vpe_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_vpe_module.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera2_wnr_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_wnr_module.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_S5K4E1_13P1BA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_S5K4E1_13P1BA.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_SKUAA_ST_gc0339.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_SKUAB_ST_s5k4e1.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_gc0310.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_gc0310.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_hdr_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_lib.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_hi256.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hi256.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_imx132.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx132.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_imx134.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx134.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_imx135.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx135.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_imx214.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx214.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_mt9m114.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mt9m114.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov13850.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13850.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov13850_q13v06k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13850_q13v06k.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov16825.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov16825.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov2680.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2680.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov2680_5987fhq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2680_5987fhq.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov2680_cht852b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2680_cht852b.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov2720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2720.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov5645.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5645.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov5648_oty5f03.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5648_oty5f03.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov5648_p5v18g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5648_p5v18g.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov5648_q5v22e.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5648_q5v22e.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov5670_30010a3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5670_30010a3.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov5670_q5v41b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5670_q5v41b.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov5670_qc700.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5670_qc700.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov7695.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov7695.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov8825.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8825.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov8858.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8858.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov8858_q8v19w.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8858_q8v19w.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov8858_q8v19w_30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8858_q8v19w_30.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8865_q8v18a.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_ov9724.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov9724.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_s5k3l1yx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l1yx.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_skuab_shinetech_gc0339.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_skuf_ov12830_p12v01c.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_skuf_ov5648_p5v23c.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sonyimx135_eeprom.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_sp1628.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sp1628.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_sunny_ov8858_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_ov8858_eeprom.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_sunny_ov8858_q8v19w_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_ov8858_q8v19w_eeprom.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_p12v01m_eeprom.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_p5v23c_eeprom.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_sunny_q13v04b_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q13v04b_eeprom.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q13v06k_eeprom.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_sunny_q5v22e_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q5v22e_eeprom.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q5v41b_eeprom.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q8v18a_eeprom.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_sunrise_pc0fe_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunrise_pc0fe_eeprom.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_truly_cm7700_eeprom.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_wavelet_lib.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-disp-apis.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmipl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmipl.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qdcm.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
-    vendor/KYOCERA/KYF31/proprietary/vendor/lib/liboemcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcamera.so \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAacDec.so \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/libOmxEvrcDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxEvrcDec.so \
     vendor/KYOCERA/KYF31/proprietary/vendor/lib/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxQcelp13Dec.so \
@@ -492,11 +372,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ims \
     imscmlibrary \
-    libloc_api_v02 \
-    libloc_ds_api \
     libtime_genoff \
-    libmm-abl \
-    libmm-abl-oem \
     shutdownlistener \
     libqmi_cci \
     libqmi_common_so \
@@ -518,4 +394,4 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook \
     uimd \
-    libqcci_legacy \
+    libqcci_legacy
